@@ -1,0 +1,88 @@
+.conteiner{
+    height: 600px; display: grid; grid-template-columns: 15% 85%; grid-template-rows: 10% 80% 10%; grid-template-areas: "header header" "aside main" "footer footer"; text-align: center; grid-gap: 10px;font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+}
+
+.header{
+    background-color: grey; grid-area: header; border-radius: 3px; background-image: url(/img/fondos/Forest_background_3.webp);
+}
+
+.main{
+    background-color: grey; grid-area: main; background-image: url(https://forums.terraria.org/index.php?attachments/img_6164-png.430083/);border-radius: 3px;
+}
+
+.aside{
+    background-color: grey; grid-area: aside; background-image: url(/img/fondos/Cavern_background_2.webp); border-radius: 3px;
+}
+
+.footer{
+    background-color: grey; grid-area: footer; border-radius: 3px; background-image: url(/img/fondos/Cavern_background_2.webp);
+}
+
+.P{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+}
+
+.footerdata{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.imge{
+    grid-area: imge1;
+    flex-direction: column;
+    border-radius: 4%;
+    border: solid grey;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    background-image: url(/img/fondos/Corrupt_ice_biome_background_1.webp);
+}
+
+.imge2{
+    grid-area: imge2;
+    flex-direction: column;
+    border-radius: 4%;
+    border: solid grey;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    background-image: url(/img/fondos/Corrupt_ice_biome_background_1.webp);
+}
+
+.textojo{
+    margin-top: 20px;
+    grid-area: texto1;
+    width: 800px;
+    height: 60px;
+    border-radius: 4%;
+    border: solid grey;
+    background-color: rgb(92, 90, 90);
+}
+
+.textoslime{
+    margin-top: 20px;
+    grid-area: texto2;
+    width: 800px;
+    height: 60px;
+    border-radius: 4%;
+    border: solid rgb(92, 90, 90);
+    background-color: grey;
+}
+
+.sectiondata{
+    grid-template-columns: 1fr 1fr 8fr; grid-template-rows: 1fr 1fr; grid-template-areas: "imge1 texto1" "imge2 texto2"; display: grid;
+    display:grid;
+    justify-content: left;
+}
+
+.eye{
+    margin-left: 3px;
+}

@@ -1,0 +1,63 @@
+.conteiner{
+    height: 600px; display: grid; grid-template-columns: 15% 85%; grid-template-rows: 10% 80% 10%; grid-template-areas: "header header" "main main" "footer footer"; text-align: center; grid-gap: 10px; flex-wrap: wrap; font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+}
+
+.header{
+    background-color: grey; grid-area: header; border-radius: 3px; background-image: url(/img/fondos/Forest_background_3.webp);
+}
+
+.main{
+    background-color: grey; grid-area: main; background-image: url(https://forums.terraria.org/index.php?attachments/img_6164-png.430083/);border-radius: 3px;
+}
+
+.footer{
+    background-color: grey; grid-area: footer; border-radius: 3px; background-image: url(/img/fondos/Cavern_background_2.webp);
+}
+
+.sectioncard{
+    display:flex;
+    justify-content: center;
+}
+
+.card{
+    flex-direction: column;
+    border-radius: 4%;
+    border: solid grey;
+    background-color: white;
+    width: 160px;
+    height: 200px;
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    background-image: url(/img/fondos/Corrupt_ice_biome_background_1.webp);
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.P{
+    color: black;
+}
+
+.titu{
+    margin-top: 10px;
+}
+
+.basi{
+    margin: 40px;
+    padding: 10px;
+}
+
+.footerdata{
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+
+
+
+
+

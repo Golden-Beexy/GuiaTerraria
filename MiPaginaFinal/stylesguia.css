@@ -1,0 +1,39 @@
+.conteiner{
+    height: 600px; display: grid; grid-template-columns: 15% 85%; grid-template-rows: 10% 80% 10%; grid-template-areas: "header header" "aside main" "footer footer"; text-align: center; grid-gap: 10px;
+    flex-wrap: wrap; font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif; 
+}
+
+.header{
+    background-color: grey; grid-area: header; border-radius: 3px; background-image: url(/img/fondos/Forest_background_3.webp);
+}
+
+.main{
+    background-color: grey; grid-area: main; background-image: url(https://forums.terraria.org/index.php?attachments/img_6164-png.430083/);border-radius: 3px; font-size: larger; 
+}
+
+.aside{
+    background-color: grey; grid-area: aside; background-image: url(/img/fondos/Cavern_background_2.webp); border-radius: 3px;
+}
+
+.footer{
+    background-color: grey; grid-area: footer; border-radius: 3px; background-image: url(/img/fondos/Cavern_background_2.webp);
+}
+
+.P{
+    color: white;
+    margin: 40px;
+    padding: 10px;
+}
+
+.guia{
+    margin: 20px;
+}
+
+.title{
+    margin-top: 10px;
+}
+
+.footerdata{
+    margin-bottom: 10px;
+    color: white;
+}
